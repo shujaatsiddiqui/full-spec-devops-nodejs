@@ -17,4 +17,4 @@ COPY server.js ./
 EXPOSE 5000
 
 ENTRYPOINT ["npm","run"]
-CMD ["dev"]
+CMD ["start"]
