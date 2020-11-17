@@ -1,0 +1,14 @@
+FROM node:12
+
+# Install all dependencies of the current project.
+COPY package.json package.json
+
+RUN npm install
+
+RUN npm install -g nodemon
+
+# Copy all local files into the image.
+COPY . .
+
+ENTRYPOINT ["npm","run"]
+CMD ["dev"]
