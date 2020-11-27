@@ -32,3 +32,4 @@ jobs:
         heroku_api_key: "64a5c3c1-33b6-482f-ad6e-196895265687"
         heroku_app_name: "devopsfinal10p" #Must be unique in Heroku
         heroku_email: "siddiqui_shujaat91@hotmail.com"
+        dockerfile_path: 'Dockerfile'
